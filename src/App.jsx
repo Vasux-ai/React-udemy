@@ -35,7 +35,7 @@ function App() {
     }
   ]
   return (
-    <div className='app'>
+    <div className='app' style={{backgroundColor : '#160231'}}>
             <Header/>
             <CoreConcept  concept={data}/>
     </div>

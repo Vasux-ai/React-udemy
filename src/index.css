@@ -22,12 +22,19 @@ a:hover {
   color: #535bf2;
 }
 
-body {
+html, body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  padding: 0;
+  width: 100%;
   min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* or row, based on layout */
+  align-items: center;
+  justify-content: start; /* keeps content at top, grows downward */
+  box-sizing: border-box;
 }
 
 h1 {
