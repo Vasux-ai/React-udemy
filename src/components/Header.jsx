@@ -9,4 +9,4 @@ export default function Header() {
             <p className='details'>4 fundamental concepts every React developer must understand</p>
         </div>
     )
-}
+]}
