@@ -8,6 +8,5 @@ export default function Header() {
             <h1>React Essentials</h1>
             <p className='details'>4 fundamental concepts every React developer must understand</p>
         </div>
-        
     )
-}
+]}

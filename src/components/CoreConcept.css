@@ -1,25 +1,23 @@
 .core-concept {
-    margin-top: 30px;
+    margin: 10px auto; /* Centers the element horizontally */
     display: flex;
-    flex-wrap: wrap;  
-    gap: 10px; 
-    width: 700px; 
-    margin-left: 150px;
-    margin-right: 100px;
+    flex-wrap: wrap;
+    max-width: 700px; /* Ensures responsiveness */
     justify-content: center;
     background-color: #0A0116;
     border: 2px solid #0A0116;
     border-radius: 10px;
     box-shadow: 0px 0px 30px 10px #0A0116;
-
 }
+
+
 
 .concept {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 120px; 
-    height: 240px; 
+    width: 120px;
+    height: 240px;
     text-align: center;
     border: 1px solid #0A0116;
     border-radius: 30px;
@@ -28,21 +26,47 @@
 }
 
 .image {
-    width: 90px; 
+    width: 90px;
     height: 60px;
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .concept h1 {
     font-size: 18px;
     margin-bottom: 5px;
-    white-space: nowrap; 
-    width: 100%; 
+    white-space: nowrap;
+    font-family: 'Inter', sans-serif !important;
+    width: 100%;
 }
 
 .concept p {
-    font-family: 'Udemy Sans', sans-serif !important;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif !important;
     font-size: 12px;
     font-weight: 400;
-    color: white;
+    color: white
+}
+
+
+.h2Header {
+    color: rgb(118, 97, 150);
+}
+
+.content {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif !important;
+}
+
+.second-Core-div {
+    margin: 10px auto; /* Centers the element horizontally */
+    max-width: 700px; /* Sets the width to 700px and ensures responsiveness */
+}
+
+.example-content {
+    border: 1px solid #0A0116;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0A0116;
+    box-shadow: 0px 0px 30px 10px #1F1132;
+    margin-top: 10px;
+
 }
